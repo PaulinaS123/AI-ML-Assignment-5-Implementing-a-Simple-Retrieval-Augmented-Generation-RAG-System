@@ -52,3 +52,9 @@ The KB contains 2–3 paragraphs on the company's training programs, remote work
 conda create -n rag-env python=3.11
 conda activate rag-env
 pip install torch transformers sentence-transformers faiss-cpu numpy pandas jupyter
+
+## Launch the notebook:
+
+jupyter notebook RAG_notebook.ipynb
+
+Run each cell sequentially to load the KB, build embeddings, retrieve chunks, and generate answers.
