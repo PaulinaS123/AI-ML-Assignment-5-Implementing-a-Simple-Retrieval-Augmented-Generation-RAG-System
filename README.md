@@ -57,4 +57,4 @@ pip install torch transformers sentence-transformers faiss-cpu numpy pandas jupy
 
 jupyter notebook RAG_notebook.ipynb
 
-Run each cell sequentially to load the KB, build embeddings, retrieve chunks, and generate answers.
+## Run each cell sequentially to load the KB, build embeddings, retrieve chunks, and generate answers.
